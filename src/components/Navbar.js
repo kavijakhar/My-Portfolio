@@ -10,10 +10,6 @@ const Navbar = () => {
       link: "home"
     },
     {
-      id: 2,
-      link: "about"
-    },
-    {
       id: 3,
       link: "experience"
     },
@@ -28,7 +24,7 @@ const Navbar = () => {
   ]
 
   return (
-    <div className="flex justify-between  items-center w-full h-20 px-4 text-white bg-gray-800 fixed">
+    <div className="flex justify-between  items-center w-full h-20  px-4 text-white bg-gradient-to-r from-cyan-900 via-blue-600 to-cyan-900 fixed">
       <div>
         <h1 className="text-5xl font-signature m-2 text-white hover:text-purple-300 cursor-pointer">Kavita</h1>
       </div>
