@@ -32,8 +32,8 @@ const Portfolio = () => {
         {
             id: 4,
             src: spotifyclone,
-            href: "https://github.com/kavijakhar",
-            code: "https://github.com/kavijakhar",
+            href: "https://spotify-clone-kavijakhar.vercel.app",
+            code: "https://github.com/kavijakhar/Spotify-Clone",
             // about: "ShortNotebook is a React Application for managing personal notes on the cloud"
         },
         {
