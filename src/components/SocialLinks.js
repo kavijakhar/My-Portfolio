@@ -1,8 +1,11 @@
 import React, { useState } from "react";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaFileAlt, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { MdOutlineKeyboardArrowLeft } from "react-icons/md";
+import myResumePDF from "../../src/assets/myresume.pdf";
+
+
 
 const SocialLinks = () => {
   const [hideen, setHidden] = useState(false)
@@ -34,19 +37,18 @@ const SocialLinks = () => {
         </>
       ),
       href: "mailto:kavitajakhar2007@gmail.com",
-      style: "rounded-br-md",
     },
-    // {
-    //   id: 4,
-    //   child: (
-    //     <>
-    //       Resume <BsFillPersonLinesFill size={30} />
-    //     </>
-    //   ),
-    //   href: "",
-    //   style: "rounded-br-md",
-    //   download: true,
-    // },
+    {
+      id: 4,
+      child: (
+        <>
+          Resume <FaFileAlt size={30} />
+        </>
+      ),
+      href: myResumePDF,
+      style: "rounded-br-md",
+      download: true,
+    },
   ];
 
   return (
@@ -56,8 +58,7 @@ const SocialLinks = () => {
           <li
             key={id}
             className={
-              " flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-500 bg-gradient-to-r from-cyan-900 via-blue-600 animate-pulse to-cyan-900 " +
-              " " +
+              "flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-500 socialLinks " +
               style
             }
           >

@@ -8,6 +8,9 @@ import nextjs from "../assets/nextjs.png";
 import Mern from "../assets/mernstack.jpg";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
+import bootstrap from '../assets/image_2024-07-23_175600688-removebg-preview.png';
+import nestjs from '../assets/nestjs-removebg-preview.png';
+import nodejs from '../assets/nodejs.png';
 
 const Experience = () => {
   const techs = [
@@ -32,7 +35,7 @@ const Experience = () => {
     {
       id: 4,
       src: reactImage,
-      title: "React",
+      title: "React Js",
       style: "shadow-blue-600",
     },
     {
@@ -58,6 +61,23 @@ const Experience = () => {
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",
+    }, {
+      id: 9,
+      src: bootstrap,
+      title: "Bootstrap",
+      style: "shadow-indigo-500",
+    },
+    {
+      id: 10,
+      src: nestjs,
+      title: "Nest JS",
+      style: "shadow-green-500", 
+    },
+    {
+      id: 11,
+      src: nodejs,
+      title: "Node Js",
+      style: "shadow-green-600", 
     },
   ];
 
@@ -69,12 +89,12 @@ const Experience = () => {
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
           <p className="text-4xl font-bold text-blue-300 ">
-          Skills & Technologies
+            Skills & Technologies
           </p>
           <p className="py-6 text-gray-300">These are the technologies I've worked with</p>
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
+        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-8 text-center py-8 px-12 sm:px-0">
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}
