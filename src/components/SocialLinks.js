@@ -78,7 +78,7 @@ const SocialLinks = () => {
       <div
         onClick={() => setHidden(!hideen)}
       >
-        {hideen ? <MdOutlineKeyboardArrowLeft className="mt-8 md:hidden w-14 mb-1 rounded-br   text-white bg-gradient-to-r from-cyan-500 to-blue-500 rounded-tr " size={30} /> : <MdOutlineKeyboardArrowRight className="mt-8 animate-pulse md:hidden rounded-br rounded-tr  absolute  text-white bg-gradient-to-r from-cyan-500 to-blue-500 w-6  h-24" size={30} />}
+        {hideen ? <MdOutlineKeyboardArrowLeft className="mt-8 md:hidden w-14 mb-1 rounded-br   text-white socialLinks " size={30} /> : <MdOutlineKeyboardArrowRight className="mt-8 animate-pulse md:hidden rounded-br rounded-tr  absolute  text-white socialLinks w-6  h-24" size={30} />}
       </div>
       {hideen &&
         <ul>
