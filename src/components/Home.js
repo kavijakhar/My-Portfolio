@@ -11,12 +11,11 @@ const Home = () => {
             <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full   px-4  md:flex-row">
                 <div className="flex flex-col justify-center mr-4 h-full">
                     <h2 className="md:text-5xl sm:text-6xl  font-midium text-white">
-                        I'm a Mern Stack Developer
+                        I'm a Full Stack Developer
                     </h2>
-                    <p className="text-gray-400  py-4 max-w-md font-medium">
-                        I'm kavita jakhar and MERN stack developer. I use  the technologies MongoDB, Express.js, React.js, and Node.js to build full-stack web applications.I can  handle both the front-end and back-end aspects of the application.
+                    <p className="text-gray-400 py-4 max-w-md font-medium">
+                        I'm Kavita Jakhar, a Full Stack Developer proficient in MongoDB, Express.js, React.js, and Node.js. I specialize in building robust full-stack web applications, seamlessly integrating front-end and back-end functionalities to deliver efficient and scalable solutions.
                     </p>
-
 
                     <div>
                         <Link
