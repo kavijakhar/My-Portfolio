@@ -6,10 +6,10 @@ const Home = () => {
     return (
         <div
             name="home"
-            className="h-screen w-full  bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900"
+            className="h-screen w-full  md:pt-0 pt-20 bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900"
         >
             <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full   px-4  md:flex-row">
-                <div className="flex flex-col justify-center mr-4 h-full">
+                <div className="flex flex-col justify-center mr-4">
                     <h2 className="md:text-5xl sm:text-6xl  font-midium text-white">
                         I'm a Full Stack Developer
                     </h2>
@@ -33,7 +33,7 @@ const Home = () => {
                     </div>
                 </div>
 
-                <div>
+                <div className=' md:pt-0 pt-10'>
                     <img
                         src={myimg}
                         alt="my profile"
