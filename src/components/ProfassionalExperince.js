@@ -17,7 +17,7 @@ const ProfessionalExperience = () => {
                     {/* Experience 1: React.js/Next.js Developer at Grand View Research */}
                     <div className="justify-between">
                         <div className='md:flex justify-between'>
-                            <p className="md:text-xl text-xl font-bold text-gray-100">React.js/Next.js Developer | Grand View Research, Inc. <span className='text-sm ml-10 font-bold md:hidden visible  text-blue-300'>Jan 2023 - Jun 2024</span></p>
+                            <p className="md:text-xl text-xl font-bold text-gray-100">React.js/Next.js Developer | Grand View Research, Inc. <span className='text-sm ml-3 font-bold md:hidden visible  text-blue-300'>Jan 2023 - Jun 2024</span></p>
                             <p className="md:text-lg text-base font-bold text-blue-300 hidden md:block">
                                 Jan 2023 - Jun 2024
                             </p>
