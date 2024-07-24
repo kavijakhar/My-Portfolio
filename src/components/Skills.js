@@ -12,7 +12,7 @@ import bootstrap from '../assets/image_2024-07-23_175600688-removebg-preview.png
 import nestjs from '../assets/nestjs-removebg-preview.png';
 import nodejs from '../assets/nodejs.png';
 
-const Experience = () => {
+const Skills = () => {
   const techs = [
     {
       id: 1,
@@ -110,4 +110,4 @@ const Experience = () => {
   );
 };
 
-export default Experience;
+export default Skills;
