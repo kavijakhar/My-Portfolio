@@ -10,11 +10,12 @@ const Home = () => {
         >
             <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center sm:h-full   px-4  md:flex-row">
                 <div className="flex flex-col justify-center mr-4">
-                    <h2 className="md:text-5xl sm:text-5xl text-2xl mt-10 sm:mt-8  font-bold text-white">
+                    <h2 className='text-white mt-10 sm:mt-8 mb-3 text-2xl'>Hello, My Name Is <span className='text-cyan-400'> Kavita Jakhar 👋</span></h2>
+                    <h2 className="md:text-5xl sm:text-5xl text-2xl   font-bold text-white">
                         I'm a Full Stack Developer
                     </h2>
                     <p className="text-gray-400 py-4 hidden sm:block max-w-md font-medium">
-                        I'm Kavita Jakhar, a Full Stack Developer proficient in MongoDB, Express.js, React.js, and Node.js. I specialize in building robust full-stack web applications, seamlessly integrating front-end and back-end functionalities to deliver efficient and scalable solutions.
+                        I am experienced in MongoDB, Express.js, React.js, and Node.js. I specialize in building robust full-stack web applications, seamlessly integrating front-end and back-end functionalities to deliver efficient and scalable solutions.
                     </p>
 
                     <div className='hidden sm:block'>
