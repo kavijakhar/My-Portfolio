@@ -71,7 +71,7 @@ const Experience = () => {
       id: 10,
       src: nestjs,
       title: "Nest JS",
-      style: "shadow-green-500", 
+      style: "shadow-pink-500", 
     },
     {
       id: 11,
@@ -83,7 +83,7 @@ const Experience = () => {
 
   return (
     <div
-      name="experience"
+      name="skills"
       className="bg-gradient-to-b from-gray-800 to-black w-full h-full "
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">

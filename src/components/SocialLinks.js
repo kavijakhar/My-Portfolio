@@ -78,7 +78,7 @@ const SocialLinks = () => {
       <div
         onClick={() => setHidden(!hideen)}
       >
-        {hideen ? <MdOutlineKeyboardArrowLeft className="mt-8 md:hidden w-14 mb-1 rounded-br   text-white socialLinks " size={30} /> : <MdOutlineKeyboardArrowRight className="mt-8 animate-pulse md:hidden rounded-br rounded-tr  absolute  text-white socialLinks w-6  h-24" size={30} />}
+        {hideen ? <MdOutlineKeyboardArrowLeft className="mt-8 md:hidden w-14 mb-1 rounded-tr  text-white socialLinks " size={30} /> : <MdOutlineKeyboardArrowRight className="mt-8 animate-pulse md:hidden rounded-br rounded-tr  absolute  text-white socialLinks w-6  h-24" size={30} />}
       </div>
       {hideen &&
         <ul>
@@ -86,7 +86,7 @@ const SocialLinks = () => {
             <li
               key={id}
               className={
-                "  flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-500 bg-gradient-to-r from-cyan-900 via-blue-600 to-cyan-900" +
+                "  flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-500 bg-gradient-to-r from-cyan-900 via-gray-700 to-cyan-900" +
                 " " +
                 style
               }

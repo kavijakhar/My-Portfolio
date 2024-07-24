@@ -3,8 +3,8 @@ import React from 'react';
 const ProfessionalExperience = () => {
     return (
         <div
-            name="ProfessionalExperience"
-            className="bg-gradient-to-b from-gray-900 to-gray-900 w-full h-full text-white"
+            name="professional experience"
+            className="bg-gradient-to-b from-gray-900 to-gray-900 w-full h-full py-8 sm:py-0 text-white"
         >
             <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
                 <div className="pb-4 pt-2">
