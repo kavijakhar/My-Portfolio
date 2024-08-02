@@ -13,7 +13,7 @@ const Portfolio = () => {
             id: 0,
             src: serviwo,
             href: "https://serviwo.com",
-            code: "https://github.com/kavijakhar/ShortNotes-Book",
+            code: "https://github.com/kavijakhar/serviwoOfficial",
             // about: "ShortNotebook is a React Application for managing personal notes on the cloud"
         },
         {
