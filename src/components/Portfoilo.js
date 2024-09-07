@@ -12,7 +12,7 @@ const Portfolio = () => {
         {
             id: 0,
             src: serviwo,
-            href: "https://serviwo.com",
+            href: "https://serviwo-official.vercel.app",
             code: "https://github.com/kavijakhar/serviwoOfficial",
             // about: "ShortNotebook is a React Application for managing personal notes on the cloud"
         },
