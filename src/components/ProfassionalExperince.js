@@ -27,7 +27,7 @@ const ProfessionalExperience = () => {
                             <p className='text-xl font-bold mt-2 text-blue-300'>Projects:</p>
                             <div className='md:flex justify-between'>
                                 <p className="text-base font-bold mt-2 text-gray-300">CRM System Development <span className='text-sm ml-3 font-bold md:hidden visible  text-blue-300'>May 2023 - Sep 2024</span></p>
-                                <p className="text-base font-bold text-gray-300 hidden md:block">May 2023 - Jun 2024</p>
+                                <p className="text-base font-bold text-gray-300 hidden md:block">May 2023 - Sep 2024</p>
                             </div>
                             <ul className="list-disc list-inside mt-1 text-gray-400 font-medium">
                                 <li>Multiple Account Management: Efficient handling of multiple user accounts.</li>
