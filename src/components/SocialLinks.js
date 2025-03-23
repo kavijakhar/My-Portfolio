@@ -3,7 +3,7 @@ import { FaFileAlt, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { MdOutlineKeyboardArrowLeft } from "react-icons/md";
-import myResumePDF from "../../src/assets/myresume.pdf";
+import myResumePDF from "../../src/assets/CV-Kavita Jakhar.pdf";
 
 
 
